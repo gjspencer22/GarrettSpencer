@@ -1,0 +1,57 @@
+#home {
+  background-image: url("../img/Template.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1000px;
+}
+#homeIcon {
+  background-image: url("../img/icons/home.png");
+  background-repeat: no-repeat;
+  height: 48px;
+  width: 45px;
+  font-size: 12px;
+  margin: 10px;
+}
+
+/* FIX DURATION  */
+#homeIcon:hover {
+  background-image: url("../img/icons/homeHover.png");
+  /* box-shadow: 1px 1px 5px white; */
+  transition-duration: 5000ms;
+}
+#welcomeBox {
+  background-color: black;
+  width: 800px;
+  height: 200px;
+  @media (min-width: 576px) {
+    width: 10px;
+  }
+  margin: 0 auto;
+  padding: 0px;
+  position: absolute;
+  top: 25%;
+  margin-top: -50px;
+  /* border-radius: 20px; */
+  box-shadow: 1px 1px 5px black;
+}
+
+/* fix font sizing */
+
+#welcomeBox h1 {
+  /* font-size: 24px; */
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  /* @media (min-width: 576px) {
+    font-size: 12px;
+  } */
+}
+
+#welcomeBox:hover {
+    box-shadow: 1px 1px 5px white;
+    transition: 500ms;
+}
