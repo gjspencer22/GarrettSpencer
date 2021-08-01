@@ -93,7 +93,7 @@
   /* transform: rotate(3deg); */
 }
 #portfolio {
-  background-image: url("../img/Skijoring.jpg");
+  background-image: url("../img/Template.jpg");
   height: 960px;
 }
 #myWorkBox {
@@ -118,6 +118,26 @@
   top: 13%;
   right: 30%;
   box-shadow: 1px 1px 5px purple;
+}
+#github {
+  background-color: yellow;
+  position: absolute;
+  right: 60%;
+  bottom: 0;
+  padding: 5px;
+  margin-left: 95px;
+  margin-bottom: 25px;
+  width: 75px;
+}
+#demo {
+  background-color: yellow;
+  position: absolute;
+  right: 30%;
+  bottom: 0;
+  padding: 5px;
+  margin-left: 95px;
+  margin-bottom: 25px;
+  width: 75px;
 }
 h1 {
   font-size: 28px;
