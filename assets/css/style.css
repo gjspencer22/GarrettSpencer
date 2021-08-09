@@ -120,7 +120,9 @@
   box-shadow: 1px 1px 5px purple;
 }
 #github {
-  background-color: yellow;
+  background-color: white;
+  height: 75px;
+  width: 64px;
   position: absolute;
   right: 60%;
   bottom: 0;
@@ -128,20 +130,29 @@
   margin-left: 95px;
   margin-bottom: 25px;
   width: 75px;
+  background-image:url(../img/icons/GitHub-Mark/PNG/GitHub-Mark-64px.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border-radius: 5px; */
 }
 #demo {
   background-color: yellow;
   position: absolute;
-  right: 30%;
-  bottom: 0;
+  right: 70%;
+  bottom: 65;
   padding: 5px;
   margin-left: 95px;
   margin-bottom: 25px;
   width: 75px;
+  
 }
 h1 {
   font-size: 28px;
   color: white;
   text-align: center;
   padding: 20px;
+}
+p {
+  color: white;
+  text-align: center;
 }
