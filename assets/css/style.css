@@ -152,7 +152,16 @@ h1 {
   text-align: center;
   padding: 20px;
 }
+
 p {
   color: white;
   text-align: center;
+}
+=======
+ 
+#description {
+ color: white;
+}
+#link{
+  color: white;
 }
