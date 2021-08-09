@@ -145,3 +145,10 @@ h1 {
   text-align: center;
   padding: 20px;
 }
+
+#description {
+ color: white;
+}
+#link{
+  color: white;
+}
