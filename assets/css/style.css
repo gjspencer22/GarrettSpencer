@@ -18,6 +18,7 @@
   top: 25%;
   /* border-radius: 20px; */
   box-shadow: 1px 1px 5px black;
+  top: 20%;
 }
 
 /* fix font sizing */
@@ -119,32 +120,38 @@
   right: 30%;
   box-shadow: 1px 1px 5px purple;
 }
+#project1 {
+ color: white;
+}
 #github {
   background-color: white;
   height: 75px;
-  width: 64px;
+  width: 75px;
   position: absolute;
-  right: 60%;
+  right: 70%;
   bottom: 0;
   padding: 5px;
+  margin: 0px;
   margin-left: 95px;
   margin-bottom: 25px;
-  width: 75px;
-  background-image:url(../img/icons/GitHub-Mark/PNG/GitHub-Mark-64px.png);
+  background-image: url(../img/icons/GitHub-Mark/PNG/GitHub-Mark-64px.png);
   background-position: center;
   background-repeat: no-repeat;
   /* border-radius: 5px; */
 }
 #demo {
-  background-color: yellow;
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  font-style: italic;
   position: absolute;
-  right: 70%;
-  bottom: 65;
+  right: 10%;
+  bottom: 0;
   padding: 5px;
   margin-left: 95px;
   margin-bottom: 25px;
-  width: 75px;
-  
+ text-align: center;
+font-size: 1.5em;
 }
 h1 {
   font-size: 28px;
