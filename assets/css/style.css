@@ -159,7 +159,17 @@ h1 {
   text-align: center;
   padding: 20px;
 }
+<<<<<<< HEAD
 p {
   color: white;
   text-align: center;
 }
+=======
+
+#description {
+ color: white;
+}
+#link{
+  color: white;
+}
+>>>>>>> 47f02ab0725057d96209f68441000fd9ba9db997
