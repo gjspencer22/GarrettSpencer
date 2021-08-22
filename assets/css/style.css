@@ -29,6 +29,12 @@
   text-align: center;
   padding: 8px;
 }
+#welcomeBox1 h1 {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+} 
 
 #welcomeBox:hover {
   box-shadow: 1px 1px 5px white;
@@ -102,26 +108,36 @@
   margin: 0 auto;
   top: 3%;
   box-shadow: 1px 1px 5px white;
+  font-size: 28px;
+  height: 150px;
+  
 }
-/* #myWorkBox h1 {
+#myWorkBox h1 {
   font-size: 28px;
   color: white;
   text-align: center;
   padding: 20px;
-} */
+}
 
 #project {
   background-color: black;
-  width: 900px;
+  /* width: 900px;
   height: 400px;
   margin: 0 auto;
-  padding: 0px;
+  padding: 1px;
   top: 13%;
   right: 30%;
-  box-shadow: 1px 1px 5px purple;
+  box-shadow: 1px 1px 5px purple; */
 }
 #project1 {
- color: white;
+  background-color: black;
+  width: 900px;
+  height: 14em;
+  margin: 0 auto;
+  padding: 10px;
+  top: 13%;
+  left: 75%;
+  box-shadow: 1px 1px 5px purple;
 }
 #github {
   background-color: white;
@@ -137,6 +153,7 @@
   background-image: url(../img/icons/GitHub-Mark/PNG/GitHub-Mark-64px.png);
   background-position: center;
   background-repeat: no-repeat;
+  font-size: 1.5em;
   /* border-radius: 5px; */
 }
 #demo {
@@ -150,8 +167,8 @@
   padding: 5px;
   margin-left: 95px;
   margin-bottom: 25px;
- text-align: center;
-font-size: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
 }
 h1 {
   font-size: 28px;
@@ -159,29 +176,23 @@ h1 {
   text-align: center;
   padding: 20px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 p {
   color: white;
   text-align: center;
 }
-=======
-=======
->>>>>>> 390a36d5cb0cd0d745141defc480fbecb023e1f9
 
-p {
-  color: white;
-  text-align: center;
-}
-=======
- 
 #description {
- color: white;
-}
-#link{
   color: white;
 }
-<<<<<<< HEAD
->>>>>>> 47f02ab0725057d96209f68441000fd9ba9db997
-=======
->>>>>>> 390a36d5cb0cd0d745141defc480fbecb023e1f9
+#link {
+  color: white;
+}
+
+
+
+
+
+
+#footer {
+  background-color: black;
+}
