@@ -1,7 +1,16 @@
 #navbar {
   background-color: black;
   justify-content: center;
-  
+  align-items: center;
+  /* max-height: 4em; */
+}
+#navButton {
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  border: solid 1px white;
+  margin: 1em;
 }
 #home {
   background-image: url("../img/Tetons.jpg");
