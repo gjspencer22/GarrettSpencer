@@ -1,3 +1,8 @@
+#navbar {
+  background-color: black;
+  justify-content: center;
+  
+}
 #home {
   background-image: url("../img/Tetons.jpg");
   background-position: center;
@@ -11,13 +16,14 @@
 #welcomeBox {
   background-color: black;
   width: 800px;
-  height: 150px;
+  /* height: 150px; */
   margin: 0 auto;
   padding: 0px;
   position: absolute;
   top: 25%;
   /* border-radius: 20px; */
   box-shadow: 1px 1px 5px black;
+  top: 20%;
 }
 
 /* fix font sizing */
@@ -28,6 +34,12 @@
   text-align: center;
   padding: 8px;
 }
+#welcomeBox1 h1 {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+} 
 
 #welcomeBox:hover {
   box-shadow: 1px 1px 5px white;
@@ -95,49 +107,84 @@
 #portfolio {
   background-image: url("../img/Template.jpg");
   height: 960px;
+  padding: 2em;
 }
 #myWorkBox {
   background-color: black;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   top: 3%;
-  box-shadow: 1px 1px 5px white;
+  /* box-shadow: 1px 1px 5px white; */
+  /* font-size: 28px; */
+  /* height: 150px; */
+  /* width: 10em; */
+  /* padding: 2px; */
+  
 }
-/* #myWorkBox h1 {
+#myWorkBox h1 {
   font-size: 28px;
   color: white;
   text-align: center;
   padding: 20px;
-} */
+}
 
 #project {
   background-color: black;
-  width: 900px;
-  height: 400px;
+  padding: 8px;
   margin: 0 auto;
-  padding: 0px;
+  column-count: 3;
+  max-height: 400px;
+  /* width: 900px; */
+  /* height: 400px; */
+  /* margin: 0 auto; */
+  /* padding: 1px; */
+  /* top: 13%; */
+  /* right: 30%; */
+  /* box-shadow: 1px 1px 5px purple; */
+}
+#projectP {
+  padding: 5px;
+  margin: 5px;
+}
+#project1 {
+  background-color: black;
+  width: 900px;
+  height: 14em;
+  margin: 0 auto;
+  padding: 10px;
   top: 13%;
-  right: 30%;
+  left: 75%;
   box-shadow: 1px 1px 5px purple;
 }
 #github {
-  background-color: yellow;
+  background-color: white;
+  height: 75px;
+  width: 75px;
   position: absolute;
-  right: 60%;
+  right: 70%;
   bottom: 0;
   padding: 5px;
+  margin: 0px;
   margin-left: 95px;
   margin-bottom: 25px;
-  width: 75px;
+  background-image: url(../img/icons/GitHub-Mark/PNG/GitHub-Mark-64px.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 1.5em;
+  /* border-radius: 5px; */
 }
 #demo {
-  background-color: yellow;
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  font-style: italic;
   position: absolute;
-  right: 30%;
+  right: 10%;
   bottom: 0;
   padding: 5px;
   margin-left: 95px;
   margin-bottom: 25px;
-  width: 75px;
+  text-align: center;
+  font-size: 1.5em;
 }
 h1 {
   font-size: 28px;
@@ -145,10 +192,23 @@ h1 {
   text-align: center;
   padding: 20px;
 }
+p {
+  color: white;
+  text-align: center;
+}
 
 #description {
- color: white;
-}
-#link{
   color: white;
+}
+#link {
+  color: white;
+}
+
+
+
+
+
+
+#footer {
+  background-color: black;
 }
