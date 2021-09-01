@@ -6,7 +6,7 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+/>
 
     <!-- Bootstrap CSS -->
     <link
@@ -30,14 +30,32 @@
     /> -->
   </head>
 
-  <body>
+  <body> 
+  <div id ="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#home">Welcome</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
     <div class="col-12" id="home">
-      <div id="icons">
+      <!-- <div id="icons">
         <a href="#home"><div class="fixed-top" id="homeIcon"></div></a>
-        <a href="#portfolio"><div class="fixed-top" id="portfolioIcon"></div></a>
+        <a href="#portfolio"
+          ><div class="fixed-top" id="portfolioIcon"></div
+        ></a>
         <a href="#about"><div class="fixed-top" id="homeIcon1"></div></a>
         <a href="#contact"><div class="fixed-top" id="homeIcon2"></div></a>
-      </div>
+      </div> -->
       <div id="welcomeBox" class="col-4 offset-2">
         <h1 class="col-12">
           HELLO, I'M GARRETT SPENCER. <br />
@@ -46,72 +64,60 @@
         </h1>
       </div>
     </div>
-      <div id="breaker" class="d-none d-xl-block"></div>
-      <div id="breaker1" class="d-block d-xl-none"></div>
-
-
+    <div id="breaker" class="d-none d-xl-block"></div>
+    <div id="breaker1" class="d-block d-xl-none"></div>
 
     <div class="col-12" id="portfolio">
-        <div id="myWorkBox" class="col-4 offset-2">
-          <h1 class="col-12">
-            MY
-            <br/> 
-            WORK
-          </h1>
-        </div>
-        <div class="container container-outline-light container-floating m-1" id="project">
+      <div id="myWorkBox" class="card">
+        <h1 class="col-12">
+          MY
+          <br />
+          WORK
+        </h1>
+      </div>
+
+      <div class="w3-col m4">
+        <div class="card" id="project">
           <h1 class="col">Ghost Writer</h1>
-          <p class="col">A blog style app that allows users to create a profile and make a story post. <br/> Other useres can then add on to the original story. </p>
-           <a class ="col" id="github" href ="https://github.com/gjspencer22/story-telling-app" target="_blank"></a>
-           <a id="demo" class="col" href ="https://gjspencer22.github.io/story-telling-app/" target="_blank">Demo</a>
-
-           </a>
-          <!-- <div class="col-4" id="project"></div>
-         
-        </div> -->
-        <!-- <div class= "col-4" id="project">
-            <h1 class="col">Donation Tracker Project</h1>
-            <p class ="col"><a href ="https://ndahlberg95.github.io/donation-tracker/" target="_blank">A Donation Tracker Project</a> </p>
-            <a class ="col" id="github" href ="https://github.com/gjspencer22/story-telling-app" target="_blank"></a>
-           <a id="demo" class="col" href ="https://gjspencer22.github.io/story-telling-app/" target="_blank">Demo</a>
-        </div> -->
-        <div>
-
-           </div>
-           
+          <p class="col" id="projectP">
+            A blog style app that allows users to create a profile and make a
+            story post. <br />
+            Other useres can then add on to the original story.
+          </p>
+          <div  id="icons">
+            <!-- <a class="col"id="github" href="https://github.com/gjspencer22/story-telling-app" target="_blank"></a> -->
+            
+            <!-- <a id="demo" class="col" href="https://gjspencer22.github.io/story-telling-app/" target="_blank">Demo</a> -->
+          </div>
         </div>
 
-     
        
-        
-          
-        <!-- <div className="portfolioDiv3">
-            <h3>This is a reworked version of the donation tracking app, now with React!</h3>
-            <p>We reworked this to have react for the frontend and mongoose for the database</p>
-            <a href="https://github.com/ndahlberg95/updated-donation-tracker" target="_blank">Take a look at the repo here!</a>
-            <h1></h1>
-            <a href="https://updated-donation-tracker.herokuapp.com/" target="_blank">The deployed site!</a>
-        </div> -->
+      </div>
+
+      
     </div>
-    <footer class="text-center text-white" id ="footer">
+    <footer class="text-center text-white" id="footer">
       <div class="container p-4 pb-0">
-    
         <section class="mb-4">
-          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/gjspencer22" target="_blank">Github</a>
-          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/garrett-j-spencer/" target="_blank">Linkedin</a>
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://github.com/gjspencer22"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.linkedin.com/in/garrett-j-spencer/"
+            target="_blank"
+            >Linkedin</a
+          >
           <a class="btn btn-outline-light btn-floating m-1" href="#!">Resume</a>
         </section>
-        
       </div>
-     
-      <div class ="footerBottom">
-        Garrett Spencer
-      </div>
-      <!-- Copyright -->
+
+      <div class="footerBottom">Garrett Spencer</div>
     </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -129,3 +135,26 @@
     ></script>
   </body>
 </html>
+
+
+
+
+ <!-- <div class="col-4" id="project"></div>
+         
+        </div> -->
+        <!-- <div  class="container container-outline-light container-floating m-1" id="project">
+            <h1 class="col">Donation Tracker Project</h1>
+            <p class ="col"><a href ="https://ndahlberg95.github.io/donation-tracker/" target="_blank">A Donation Tracker Project</a> </p>
+            <a class ="col" id="github" href ="https://github.com/gjspencer22/story-telling-app" target="_blank"></a>
+           <a id="demo" class="col" href ="https://gjspencer22.github.io/story-telling-app/" target="_blank">Demo</a>
+        </div> -->
+
+
+
+<!-- <div className="portfolioDiv3">
+            <h3>This is a reworked version of the donation tracking app, now with React!</h3>
+            <p>We reworked this to have react for the frontend and mongoose for the database</p>
+            <a href="https://github.com/ndahlberg95/updated-donation-tracker" target="_blank">Take a look at the repo here!</a>
+            <h1></h1>
+            <a href="https://updated-donation-tracker.herokuapp.com/" target="_blank">The deployed site!</a>
+        </div> -->

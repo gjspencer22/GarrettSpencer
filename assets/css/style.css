@@ -1,3 +1,8 @@
+#navbar {
+  background-color: black;
+  justify-content: center;
+  
+}
 #home {
   background-image: url("../img/Tetons.jpg");
   background-position: center;
@@ -11,7 +16,7 @@
 #welcomeBox {
   background-color: black;
   width: 800px;
-  height: 150px;
+  /* height: 150px; */
   margin: 0 auto;
   padding: 0px;
   position: absolute;
@@ -102,14 +107,17 @@
 #portfolio {
   background-image: url("../img/Template.jpg");
   height: 960px;
+  padding: 2em;
 }
 #myWorkBox {
   background-color: black;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   top: 3%;
-  box-shadow: 1px 1px 5px white;
-  font-size: 28px;
-  height: 150px;
+  /* box-shadow: 1px 1px 5px white; */
+  /* font-size: 28px; */
+  /* height: 150px; */
+  /* width: 10em; */
+  /* padding: 2px; */
   
 }
 #myWorkBox h1 {
@@ -121,13 +129,21 @@
 
 #project {
   background-color: black;
-  /* width: 900px;
-  height: 400px;
+  padding: 8px;
   margin: 0 auto;
-  padding: 1px;
-  top: 13%;
-  right: 30%;
-  box-shadow: 1px 1px 5px purple; */
+  column-count: 3;
+  max-height: 400px;
+  /* width: 900px; */
+  /* height: 400px; */
+  /* margin: 0 auto; */
+  /* padding: 1px; */
+  /* top: 13%; */
+  /* right: 30%; */
+  /* box-shadow: 1px 1px 5px purple; */
+}
+#projectP {
+  padding: 5px;
+  margin: 5px;
 }
 #project1 {
   background-color: black;
