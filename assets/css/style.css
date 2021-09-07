@@ -1,19 +1,36 @@
+html, body, #wrapper, #bar {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 #navbar {
-  background-color: black;
+  background-color: white;
+  display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  align-items: space-between;
+  border-bottom: 1px solid black;
   /* max-height: 4em; */
 }
 #navButton {
-  padding: 10px;
-  align-items: center;
+  /* padding: 10px; */
+  align-items: space-between;
   justify-content: center;
   font-size: x-large;
-  border: solid 1px white;
-  margin: 1em;
+  /* border: solid 1px black; */
+  margin: .5em;
+  color: black;
+}
+#navButton:hover {
+  color: darkgreen;
+}
+#navbuttons {
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 #home {
-  background-image: url("../img/Tetons.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,100 +40,69 @@
   padding-bottom: 1000px;
 }
 #welcomeBox {
-  background-color: black;
-  width: 800px;
-  /* height: 150px; */
+  max-height: 400px;
   margin: 0 auto;
-  padding: 0px;
+  padding: auto;
   position: absolute;
   top: 25%;
-  /* border-radius: 20px; */
-  box-shadow: 1px 1px 5px black;
-  top: 20%;
+  border: solid 1px;
+  border-radius: 8px;
+}
+#hello h1{
+  font-size: 1px;
+
 }
 
 /* fix font sizing */
 
 #welcomeBox h1 {
-  font-size: 28px;
-  color: white;
+  /* font-size: large;  */
+  color: black;
   text-align: center;
-  padding: 8px;
+  /* padding: 8px; */
 }
-#welcomeBox1 h1 {
-  font-size: 18px;
-  color: white;
-  text-align: center;
-  padding: 8px;
-} 
+/* #welcomeBox1 h1 { */
+  /* font-size: 18px; */
+  /* color: white; */
+  /* text-align: center; */
+  /* padding: 8px; */
+/* }  */
 
 #welcomeBox:hover {
   box-shadow: 1px 1px 5px white;
   transition: 500ms;
 }
 
-#homeIcon {
-  background-image: url("../img/icons/home.png");
-  background-repeat: no-repeat;
-  height: 48px;
-  width: 45px;
-  margin: 10px;
-}
-/* FIX DURATION  */
-#homeIcon:hover {
-  background-image: url("../img/icons/homeHover.png");
-}
-#portfolioIcon {
-  background-image: url("../img/icons/Portfolio.png");
-  background-repeat: no-repeat;
-  /* position: sticky; */
-  height: 48px;
-  width: 48px;
-  margin: 10px;
-  top: 7%;
-}
-#portfolioIcon:hover {
-  background-image: url("../img/icons/PortfolioHover.png");
-}
-#homeIcon1 {
-  background-image: url("../img/icons/home.png");
-  background-repeat: no-repeat;
-  height: 48px;
-  width: 45px;
-  margin: 10px;
-  top: 14%;
-}
-#homeIcon1:hover {
-  background-image: url("../img/icons/homeHover.png");
-}
-#homeIcon2 {
-  background-image: url("../img/icons/home.png");
-  background-repeat: no-repeat;
-  height: 48px;
-  width: 45px;
-  margin: 10px;
-  top: 21%;
-}
-#homeIcon2:hover {
-  background-image: url("../img/icons/homeHover.png");
-}
+/* #sidebar{
+  width: 280px;
+  height:100%
+} */
 #breaker {
-  background-color: black;
-  height: 150px;
+  min-height: 350px;
   width: 100%;
-  box-shadow: 5px 5px 5px white;
-  /* transform: rotate(3deg); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/Forest.jpg");
+  border-radius: 5px;
 }
 #breaker1 {
-  background-color: black;
-  height: 95px;
+  min-height: 200px;
   width: 100%;
-  /* transform: rotate(3deg); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/Forest.jpg");
+  border-radius: 5px;
 }
 #portfolio {
-  background-image: url("../img/Template.jpg");
+  /* background-image: url("../img/Template.jpg"); */
   height: 960px;
-  padding: 2em;
+  /* padding: 2em; */
+  display: inline-block;
+
 }
 #myWorkBox {
   background-color: black;
@@ -138,10 +124,13 @@
 
 #project {
   background-color: black;
-  padding: 8px;
-  margin: 0 auto;
-  column-count: 3;
-  max-height: 400px;
+  padding: .5em;
+  display: inline-block;
+  /* float: left; */
+  margin-top: 4em;
+  /* column-count: 3; */
+  max-height: 600px;
+
   /* width: 900px; */
   /* height: 400px; */
   /* margin: 0 auto; */
@@ -149,6 +138,9 @@
   /* top: 13%; */
   /* right: 30%; */
   /* box-shadow: 1px 1px 5px purple; */
+}
+#projectTitle{
+border-bottom: 1px solid white;
 }
 #projectP {
   padding: 5px;
@@ -165,38 +157,41 @@
   box-shadow: 1px 1px 5px purple;
 }
 #github {
-  background-color: white;
-  height: 75px;
-  width: 75px;
-  position: absolute;
-  right: 70%;
-  bottom: 0;
-  padding: 5px;
-  margin: 0px;
-  margin-left: 95px;
-  margin-bottom: 25px;
+  background-color: orange;
+  display: inline-block;
+  height: 64px;
+  width: 65px;
+  border-radius: 5px;
+  /* position: absolute; */
+  /* right: 70%; */
+  /* bottom: 0; */
+  /* margin-left: 95px; */
+  /* margin-bottom: 25px; */
   background-image: url(../img/icons/GitHub-Mark/PNG/GitHub-Mark-64px.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  font-size: 1.5em;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* font-size: 1.5em; */
   /* border-radius: 5px; */
 }
 #demo {
-  width: 75px;
-  height: 75px;
+  height: 64px;
+  width: 65px;
   background-color: white;
   font-style: italic;
-  position: absolute;
-  right: 10%;
-  bottom: 0;
-  padding: 5px;
-  margin-left: 95px;
-  margin-bottom: 25px;
-  text-align: center;
-  font-size: 1.5em;
+  display: inline-block;
+  border-radius: 5px;
+  background-image: url(../img/icons/GitHub-Mark/PNG/GitHub-Mark-64px.png);
+  /* position: absolute; */
+  /* right: 10%; */
+  /* bottom: 0; */
+  /* padding: 5px; */
+  /* margin-left: 95px; */
+  /* margin-bottom: 25px; */
+  /* text-align: center; */
+  /* font-size: 1.5em; */
 }
 h1 {
-  font-size: 28px;
+  font-size: xx-large;
   color: white;
   text-align: center;
   padding: 20px;
@@ -219,5 +214,12 @@ p {
 
 
 #footer {
-  background-color: black;
+  background-color: white;
+  border-top: 1px solid black;
+}
+#footerButton {
+ background-color:white;
+}
+#footerBottom {
+  background-color:black;
 }
