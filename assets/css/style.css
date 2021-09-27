@@ -4,6 +4,7 @@ html, body, #wrapper, #bar {
   padding: 0;
   height: 100%;
 }
+
 #navbar {
   background-color: white;
   display: flex;
@@ -13,6 +14,7 @@ html, body, #wrapper, #bar {
   border-bottom: 1px solid black;
   /* max-height: 4em; */
 }
+
 #navButton {
   /* padding: 10px; */
   align-items: space-between;
@@ -22,14 +24,17 @@ html, body, #wrapper, #bar {
   margin: .5em;
   color: black;
 }
+
 #navButton:hover {
   color: darkgreen;
 }
+
 #navbuttons {
   display: flex;
   justify-content: center;
   color: white;
 }
+
 #home {
   background-position: center;
   background-repeat: no-repeat;
@@ -39,6 +44,7 @@ html, body, #wrapper, #bar {
   justify-content: center;
   padding-bottom: 1000px;
 }
+
 #welcomeBox {
   max-height: 400px;
   margin: 0 auto;
@@ -48,9 +54,9 @@ html, body, #wrapper, #bar {
   border: solid 1px;
   border-radius: 8px;
 }
-#hello h1{
-  font-size: 1px;
 
+#hello h1 {
+  font-size: 1px;
 }
 
 /* fix font sizing */
@@ -61,11 +67,17 @@ html, body, #wrapper, #bar {
   text-align: center;
   /* padding: 8px; */
 }
+
 /* #welcomeBox1 h1 { */
-  /* font-size: 18px; */
-  /* color: white; */
-  /* text-align: center; */
-  /* padding: 8px; */
+
+/* font-size: 18px; */
+
+/* color: white; */
+
+/* text-align: center; */
+
+/* padding: 8px; */
+
 /* }  */
 
 #welcomeBox:hover {
@@ -77,6 +89,7 @@ html, body, #wrapper, #bar {
   width: 280px;
   height:100%
 } */
+
 #breaker {
   min-height: 350px;
   width: 100%;
@@ -87,6 +100,7 @@ html, body, #wrapper, #bar {
   background-image: url("../img/Forest.jpg");
   border-radius: 5px;
 }
+
 #breaker1 {
   min-height: 200px;
   width: 100%;
@@ -97,24 +111,29 @@ html, body, #wrapper, #bar {
   background-image: url("../img/Forest.jpg");
   border-radius: 5px;
 }
+
 #portfolio {
   /* background-image: url("../img/Template.jpg"); */
   height: 960px;
+  /* padding: 55px; */
+  margin: 55px;
   /* padding: 2em; */
-  display: inline-block;
-
+  /* display: inline-block; */
 }
+
 #myWorkBox {
   background-color: black;
   /* margin: 0 auto; */
-  top: 3%;
+  /* margin: 2em; */
+  margin-right: 5em;
+  margin-left: 0;
   /* box-shadow: 1px 1px 5px white; */
   /* font-size: 28px; */
   /* height: 150px; */
   /* width: 10em; */
   /* padding: 2px; */
-  
 }
+
 #myWorkBox h1 {
   font-size: 28px;
   color: white;
@@ -124,14 +143,15 @@ html, body, #wrapper, #bar {
 
 #project {
   background-color: black;
-  padding: .5em;
-  display: inline-block;
+  /* padding: .5em; */
+  display: inline-flex;
   /* float: left; */
   margin-top: 4em;
+  margin: 2em;
+  /* margin-left: 4em; */
   /* column-count: 3; */
-  max-height: 600px;
-
-  /* width: 900px; */
+  /* max-height: 600px; */
+  /* max-width: 900px; */
   /* height: 400px; */
   /* margin: 0 auto; */
   /* padding: 1px; */
@@ -139,23 +159,40 @@ html, body, #wrapper, #bar {
   /* right: 30%; */
   /* box-shadow: 1px 1px 5px purple; */
 }
-#projectTitle{
-border-bottom: 1px solid white;
+
+#ghostWriter {
+  display: inline-flex;
+  margin-top: 4em;
+  margin: 2em;
+  background-image: url("/assets/img/GhostWriter.JPG");
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
 }
+
+#projectTitle {
+  padding: 5px 10px;
+  margin-right: 5px;
+  color: black;
+  border: 3px solid black;
+  background-color: white;
+  width: 100%;
+}
+
 #projectP {
+  border: 3px solid black;
+  color: black;
   padding: 5px;
-  margin: 5px;
+  margin-right: 5px;
+  background-color: white;
+  width: 100%;
 }
-#project1 {
-  background-color: black;
-  width: 900px;
-  height: 14em;
-  margin: 0 auto;
-  padding: 10px;
-  top: 13%;
-  left: 75%;
-  box-shadow: 1px 1px 5px purple;
+#logos{
+  display: inline-block;
+  justify-content: center;
+  margin-left: 8em;
 }
+
 #github {
   background-color: orange;
   display: inline-block;
@@ -173,6 +210,7 @@ border-bottom: 1px solid white;
   /* font-size: 1.5em; */
   /* border-radius: 5px; */
 }
+
 #demo {
   height: 64px;
   width: 65px;
@@ -190,12 +228,14 @@ border-bottom: 1px solid white;
   /* text-align: center; */
   /* font-size: 1.5em; */
 }
+
 h1 {
   font-size: xx-large;
   color: white;
   text-align: center;
   padding: 20px;
 }
+
 p {
   color: white;
   text-align: center;
@@ -204,22 +244,20 @@ p {
 #description {
   color: white;
 }
+
 #link {
   color: white;
 }
-
-
-
-
-
 
 #footer {
   background-color: white;
   border-top: 1px solid black;
 }
+
 #footerButton {
- background-color:white;
+  background-color: white;
 }
+
 #footerBottom {
-  background-color:black;
+  background-color: black;
 }
