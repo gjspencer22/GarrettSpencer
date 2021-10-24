@@ -6,7 +6,7 @@ html, body, #wrapper, #bar {
 }
 
 #navbar {
-  background-color: white;
+  background-color: black;
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -14,7 +14,10 @@ html, body, #wrapper, #bar {
   border-bottom: 1px solid black;
   /* max-height: 4em; */
 }
-
+/* #navbarToggler {
+  color: black;
+  background-color: black;
+} */
 #navButton {
   /* padding: 10px; */
   align-items: space-between;
@@ -22,12 +25,12 @@ html, body, #wrapper, #bar {
   font-size: x-large;
   /* border: solid 1px black; */
   margin: .5em;
-  color: black;
+  color: white;
   transition:0.3s;
 }
 
 #navButton:hover {
-  border: 1px solid black;
+  border: 1px solid white;
   transition:0.3s;
 }
 
@@ -68,6 +71,15 @@ html, body, #wrapper, #bar {
   color: black;
   text-align: center;
   /* padding: 8px; */
+}
+#aboutBox {
+  max-height: 600px;
+  border: solid 1px;
+  border-radius: 8px;
+  max-width: 600px;
+  font-size: large;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* #welcomeBox1 h1 { */
