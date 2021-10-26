@@ -47,7 +47,7 @@ html, body, #wrapper, #bar {
   position: relative;
   display: flex;
   justify-content: center;
-  padding-bottom: 1000px;
+  margin-bottom: 25%;
 }
 
 #welcomeBox {
@@ -55,9 +55,11 @@ html, body, #wrapper, #bar {
   margin: 0 auto;
   padding: auto;
   position: absolute;
-  top: 25%;
+  margin-top: 25%;
+  margin-bottom: 20px;
   border: solid 1px;
   border-radius: 8px;
+
 }
 
 #hello h1 {
@@ -78,8 +80,8 @@ html, body, #wrapper, #bar {
   border-radius: 8px;
   max-width: 600px;
   font-size: large;
-  margin: 0 auto;
   text-align: center;
+  margin-top: 50%;
 }
 
 /* #welcomeBox1 h1 { */
