@@ -108,7 +108,6 @@ html, body, #wrapper, #bar {
 
 #breaker {
   min-height: 350px;
-  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -128,20 +127,12 @@ html, body, #wrapper, #bar {
 }
 
 #portfolio {
-  margin: 55px;
- 
+  /* margin: 55px; */
+  background-color: red;
 }
 
 #myWorkBox {
   background-color: black;
-  /* margin: 0 auto; */
-  /* margin: 2em; */
-  margin-right: 5em;
-  margin-left: 0;
-  /* box-shadow: 1px 1px 5px white; */
-  /* font-size: 28px; */
-  /* height: 150px; */
-  /* padding: 2px; */
 }
 
 #myWorkBox h1 {
@@ -171,14 +162,14 @@ html, body, #wrapper, #bar {
 }
 
 #ghostWriter {
-  display: inline-flex;
+  display:flex;
   margin-top: 4em;
-  margin: 2em;
+  /* margin: 2em; */
   background-color: orange;
   /* background-image: url("/assets/img/GhostWriter.JPG"); */
   /* background-attachment: fixed; */
-  background-position: center;
-  background-size: cover;
+  /* background-position: center; */
+  /* background-size: cover; */
 }
 
 #projectTitle {
@@ -201,7 +192,7 @@ html, body, #wrapper, #bar {
 #logos{
   display: flex;
   justify-content: center;
-  margin-left: 8em;
+  /* margin-left: 8em; */
 }
 
 #github {
@@ -228,7 +219,7 @@ html, body, #wrapper, #bar {
   font-style: italic;
   border-radius: 5px;
   background-image: url(../img/icons/GitHub-Mark/PNG/GitHub-Mark-64px.png);
-  margin-right: auto;
+  /* margin-right: auto; */
   /* position: absolute; */
   /* right: 10%; */
   /* bottom: 0; */
