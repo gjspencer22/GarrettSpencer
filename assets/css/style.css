@@ -164,6 +164,8 @@ html, body, #wrapper, #bar {
 #ghostWriter {
   display:flex;
   margin-top: 4em;
+  padding: .5em;
+  height: 400px;
   /* margin: 2em; */
   background-color: orange;
   /* background-image: url("/assets/img/GhostWriter.JPG"); */
