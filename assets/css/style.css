@@ -168,8 +168,9 @@ html, body, #wrapper, #bar {
   margin-bottom: 4em;
   padding: .5em;
   height: 400px;
+  border: 1px solid black;
   /* margin: 2em; */
-  background-color: orange;
+  background-color: white;
   /* background-image: url("/assets/img/GhostWriter.JPG"); */
   /* background-attachment: fixed; */
   /* background-position: center; */
