@@ -142,6 +142,10 @@ html, body, #wrapper, #bar {
   text-align: center;
   padding: 20px;
 }
+#projectBoxes {
+  /* background-color: black; */
+  max-width: 100%;
+}
 
 #project {
   background-color: black;
@@ -196,7 +200,8 @@ html, body, #wrapper, #bar {
 }
 #logos{
   display: flex;
-  justify-content: center;
+  padding: 10px;
+  /* justify-content: center; */
   /* margin-left: 8em; */
 }
 
@@ -247,9 +252,11 @@ p {
   text-align: center;
 }
 a{
-  color: white;
-  font-weight: bold;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
+  color: purple;
+  /* font-weight: bold; */
+ 
+  /* border-bottom: 1px solid black; */
   
 }
 
@@ -257,9 +264,6 @@ a{
   color: white;
 }
 
-#link {
-  color: white;
-}
 
 #footer {
   background-color: white;
