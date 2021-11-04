@@ -264,6 +264,9 @@ a{
   color: white;
 }
 
+#randomProjectButton{
+  align-items: center;
+}
 
 #footer {
   background-color: white;
