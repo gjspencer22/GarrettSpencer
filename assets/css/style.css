@@ -126,10 +126,10 @@ html, body, #wrapper, #bar {
   border-radius: 5px;
 }
 
-#portfolio {
+/* #portfolio {
   /* margin: 55px; */
   /* background-color: red; */
-}
+/* }  */
 
 #myWorkBox {
   background-color: black;
@@ -265,9 +265,11 @@ a{
 }
 
 #randomProject{
-  align-items: center;
-}
 
+}
+randomProjectButton {
+  background-color:red;
+}
 #footer {
   background-color: white;
   border-top: 1px solid black;
@@ -281,4 +283,3 @@ a{
 
 #footerBottom {
   background-color: black;
-}
