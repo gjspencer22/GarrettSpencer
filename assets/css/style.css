@@ -265,10 +265,11 @@ a{
 }
 
 #randomProject{
-
+display: inline-block;
 }
-randomProjectButton {
+#randomProjectButton {
   background-color:red;
+  align-content: center;
 }
 #footer {
   background-color: white;
@@ -283,3 +284,4 @@ randomProjectButton {
 
 #footerBottom {
   background-color: black;
+}
