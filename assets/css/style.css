@@ -266,10 +266,14 @@ a{
 
 #randomProject{
 display: inline-block;
+justify-content: center;
+text-align: center;
 }
 #randomProjectButton {
-  background-color:red;
-  align-content: center;
+  /* display: flex; */
+  background-color:orange;
+  justify-content: center;
+  text-align: center;
 }
 #footer {
   background-color: white;
