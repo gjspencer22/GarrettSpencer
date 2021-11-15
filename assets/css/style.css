@@ -268,12 +268,19 @@ a{
 display: inline-block;
 justify-content: center;
 text-align: center;
+margin-bottom: 40px;
+}
+#randomProjectHeader{
+  justify-content: center;
+  color: black;
 }
 #randomProjectButton {
   /* display: flex; */
   background-color:orange;
   justify-content: center;
   text-align: center;
+  width: 5em;
+  height: 3em;
 }
 #footer {
   background-color: white;
