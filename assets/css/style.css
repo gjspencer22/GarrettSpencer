@@ -207,15 +207,15 @@ html, body, #wrapper, #bar {
 
 #github {
   background-color: orange;
-  max-height: 64px;
-  max-width: 65px;
+  height: 4em;
+  max-width: 8em;
   border-radius: 5px;
   /* position: absolute; */
   /* right: 70%; */
   /* bottom: 0; */
   margin-right: auto;
   /* margin-bottom: 25px; */
-  background-image: url(../img/icons/GitHub-Mark/PNG/GitHub-Mark-64px.png);
+  background-color:black;
   /* background-position: center; */
   /* background-repeat: no-repeat; */
   /* font-size: 1.5em; */
@@ -223,12 +223,12 @@ html, body, #wrapper, #bar {
 }
 
 #demo {
-  height: 64px;
-  max-width: 65px;
+  max-height: 8em;
+  max-width: 8em;
   background-color: white;
   font-style: italic;
   border-radius: 5px;
-  background-image: url(../img/icons/GitHub-Mark/PNG/GitHub-Mark-64px.png);
+  background-color: black;
   /* margin-right: auto; */
   /* position: absolute; */
   /* right: 10%; */
@@ -238,6 +238,10 @@ html, body, #wrapper, #bar {
   /* margin-bottom: 25px; */
   /* text-align: center; */
   /* font-size: 1.5em; */
+}
+a{
+  color: white;
+  font-size: large;
 }
 
 h1 {
@@ -250,14 +254,6 @@ h1 {
 p {
   color: white;
   text-align: center;
-}
-a{
-  border: 1px solid black;
-  color: purple;
-  /* font-weight: bold; */
- 
-  /* border-bottom: 1px solid black; */
-  
 }
 
 #description {
@@ -275,12 +271,31 @@ margin-bottom: 40px;
   color: black;
 }
 #randomProjectButton {
-  /* display: flex; */
-  background-color:orange;
+  box-shadow: 1px 1px 5px black;
+  padding:15px;
+  border: 1px solid black;
+  background-color:white;
   justify-content: center;
   text-align: center;
-  width: 5em;
-  height: 3em;
+  max-width: 12em;
+  max-height: 8em;
+  background-image:url('../img/Swirl.gif');
+  background-size: cover;
+  border-radius: 5px;
+  font-size: xx-large;
+
+}
+#randomProjectButtonText{
+  color: transparent;
+  padding: 15px;
+}
+#randomProjectButtonText:hover{
+color: white;
+background-color: black;
+padding: 15px;
+transition-duration: 0.5s;
+box-shadow: 1px 1px 5px;
+font-size:xx-large;
 }
 #footer {
   background-color: white;
