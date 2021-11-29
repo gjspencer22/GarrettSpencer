@@ -41,13 +41,18 @@ html, body, #wrapper, #bar {
 }
 
 #home {
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: relative; */
   display: flex;
   justify-content: center;
   margin-bottom: 25%;
+  background-image: url(../img/Plane.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #welcomeBox {
@@ -206,20 +211,14 @@ html, body, #wrapper, #bar {
 }
 
 #github {
-  background-color: orange;
+  /* background-color: orange; */
   height: 4em;
   max-width: 8em;
   border-radius: 5px;
-  /* position: absolute; */
-  /* right: 70%; */
-  /* bottom: 0; */
+  align-items: center;
   margin-right: auto;
-  /* margin-bottom: 25px; */
   background-color:black;
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* font-size: 1.5em; */
-  /* border-radius: 5px; */
+  padding: 1.25em;
 }
 
 #demo {
@@ -228,20 +227,13 @@ html, body, #wrapper, #bar {
   background-color: white;
   font-style: italic;
   border-radius: 5px;
+  margin-left: auto;
   background-color: black;
-  /* margin-right: auto; */
-  /* position: absolute; */
-  /* right: 10%; */
-  /* bottom: 0; */
-  /* padding: 5px; */
-  /* margin-left: 95px; */
-  /* margin-bottom: 25px; */
-  /* text-align: center; */
-  /* font-size: 1.5em; */
 }
 a{
   color: white;
   font-size: large;
+  align-items:center;
 }
 
 h1 {

@@ -12,7 +12,7 @@ document.getElementById ("randomProjectButton").addEventListener('click', keepTr
 function keepTrying () {
    clickCount = trigger.data("clickCount");
    if (clickCount > 1) {
-     document.getElementById("ra")
+     document.getElementById("randomProjectButton")
    }
   console.log('heheh')
 
