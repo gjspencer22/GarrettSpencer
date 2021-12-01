@@ -234,11 +234,20 @@ html, body, #wrapper, #bar {
 #logos{
   display: flex;
   padding: 10px;
+  overflow: hidden;
 
   /* justify-content: center; */
   /* margin-left: 8em; */
 }
-
+#wrapper {
+  height: 4em;
+  max-width: 8em;
+  align-items: center;
+  margin-right: auto;
+  border: solid 5px black;
+  border-radius: 25px;
+  background-color: rgba(124,169,130, .50);
+}
 #github {
   /* background-color: orange; */
   height: 4em;
@@ -248,11 +257,27 @@ html, body, #wrapper, #bar {
   border: solid 5px black;
   border-radius: 25px;
   background-color: rgba(124,169,130, .50);
+  /* background: blue; */
+  transition: 1s;
+  left: -150px;
+  bottom: -150px;
+  color: white;
+  font-size: large; 
 }
-#github:hover{
+#wrapper:hover #github{
 /* color:aqua; */
-background-color: purple;
-transition:500ms;
+/* background-color: purple;
+transition:500ms; */
+height: 4em;
+  max-width: 8em;
+  align-items: center;
+  margin-right: auto;
+  border: solid 5px black;
+  border-radius: 25px;
+left: 0px;
+bottom: 0px;
+transition: 1s;
+background-color: black;
 }
 #demo {
   max-height: 8em;
