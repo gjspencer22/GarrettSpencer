@@ -11,8 +11,8 @@ html, body, #wrapper, #bar {
 }
 
 #navbar {
-  /* background-color: black; */
-  background-image: url(../img/Forest.jpg);
+ 
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,19 +21,15 @@ html, body, #wrapper, #bar {
   justify-content: right;
   /* align-items: center; */
   align-items: space-between;
-  /* border-bottom: 1px solid black; */
+
   /* max-height: 4em; */
 }
-/* #navbarToggler {
-  color: black;
-  background-color: black;
-} */
+
 #navButton {
   /* padding: 10px; */
   align-items: space-between;
   justify-content: center;
   font-size: x-large;
-  /* border: solid 1px black; */
   margin: .5em;
   color: black;
   transition:0.3s;
@@ -46,7 +42,7 @@ html, body, #wrapper, #bar {
 #navbuttons {
   display: flex;
   justify-content: center;
-  color: white;
+  color: black;
 }
 
 #home {
@@ -57,11 +53,11 @@ html, body, #wrapper, #bar {
   display: flex;
   justify-content: center;
   margin-bottom: 25%;
-  background-image: url(../img/Forest.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 5em;
 }
 
 #welcomeBox {
@@ -71,7 +67,8 @@ html, body, #wrapper, #bar {
   position: absolute;
   margin-top: 15%;
   margin-bottom: 20px;
-  border: solid 5px black;
+  border: solid 5px;
+  border-color: dark-gray;
   border-radius: 25px;
   background-color: rgba(255,255, 255, .50);
   /* background-color: rgba(194,168,62, .50); */
@@ -93,12 +90,16 @@ html, body, #wrapper, #bar {
 }
 #aboutBox {
   max-height: 600px;
-  border: solid 1px;
+  border: solid 2px;
   border-radius: 8px;
-  max-width: 600px;
-  font-size: large;
+  min-width: 20em;
+  /* max-width: 600px; */
+  font-size: xx-large;
   text-align: center;
   margin-top: 50%;
+  background-color:rgba(255,255,255, .50);
+  /* background-color: rgba(124,169,130, .50); */
+  padding: 2em;
 }
 
 /* #welcomeBox1 h1 { */
@@ -114,9 +115,8 @@ html, body, #wrapper, #bar {
 /* }  */
 
 #welcomeBox:hover {
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 1px 1px 5px rgba(36,62,54, .50);
   transition: 500ms;
-  text-shadow: -1px -1px white;
 }
 /* #welcomeBox h1:hover {
   color: white;
@@ -133,7 +133,7 @@ html, body, #wrapper, #bar {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../img/Forest.jpg");
+  /* background-image: url("../img/Forest.jpg"); */
   border-radius: 5px;
 }
 
@@ -143,7 +143,10 @@ html, body, #wrapper, #bar {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../img/Forest.jpg");
+  color: orange;
+  background-color: black;
+  border-style: solid;
+  /* background-image: url("../img/Forest.jpg"); */
   border-radius: 5px;
 }
 
@@ -153,8 +156,9 @@ html, body, #wrapper, #bar {
 /* }  */
 
 #myWorkBox {
-  background-color: black;
+  background-color: rgba(36,62,54);
   margin-top: 3em;
+  border: solid 5px rgba(224,238,198, .50);
 }
 
 #myWorkBox h1 {
@@ -162,6 +166,7 @@ html, body, #wrapper, #bar {
   color: white;
   text-align: center;
   padding: 20px;
+  
 }
 #projectBoxes {
   /* background-color: black; */
@@ -193,9 +198,15 @@ html, body, #wrapper, #bar {
   margin-bottom: 4em;
   padding: .5em;
   height: 400px;
+  position: relative;
   /* border: 1px solid black; */
-  border: solid 5px black;
+  border: solid 2px black;
   border-radius: 25px;
+  background-image: url(../img/Tetons.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* background-color: rgba(241,247,237, .50); */
   background-color: rgba(224,238,198, .50);
   /* background-color: rgba(255,255, 255, .50); */
@@ -210,10 +221,7 @@ html, body, #wrapper, #bar {
 #projectTitle {
   padding: 5px 10px;
   margin-right: 5px;
-  color: black;
-  /* border: 3px solid black; */
-  background-color: white;
-  /* border: solid 5px black; */
+  color: white;
   border-radius: 25px;
   
   background-color: rgba(36,62,54, .50);
@@ -221,67 +229,65 @@ html, body, #wrapper, #bar {
 }
 
 #projectP {
-  /* border: 3px solid black; */
-  color: black;
   padding: 5px;
   margin-right: 5px;
   background-color: white;
-  /* border: solid 5px black; */
   border-radius: 25px;
   background-color: rgba(36,62,54, .50);
 
 }
 #logos{
   display: flex;
-  padding: 10px;
   overflow: hidden;
+  min-height: 5em;
+  margin: .5em;
+  justify-content: center;
+  /* padding: .5em; */
 
   /* justify-content: center; */
   /* margin-left: 8em; */
 }
 #wrapper {
-  height: 4em;
-  max-width: 8em;
-  align-items: center;
-  margin-right: auto;
-  border: solid 5px black;
+  width: 8em;
+  display:flex;
   border-radius: 25px;
-  background-color: rgba(124,169,130, .50);
+  background-image: url(../img/Tetons.jpg);
+  position: relative;
+}
+#wrapperText{
+text-align: center;
+padding: .5em;
+color: white;
+font-family: "Impact"
 }
 #github {
-  /* background-color: orange; */
-  height: 4em;
-  max-width: 8em;
-  align-items: center;
-  margin-right: auto;
-  border: solid 5px black;
-  border-radius: 25px;
-  background-color: rgba(124,169,130, .50);
-  /* background: blue; */
-  transition: 1s;
-  left: -150px;
-  bottom: -150px;
-  color: white;
-  font-size: large; 
+  position: absolute;
+  color: rgba(255,255,255,0);
+  padding: 1.5em 0;
+}
+#wrapper:hover #wrapperText{
+  transition: 1.5s;
+  color: rgba(0,0,0, .0)
 }
 #wrapper:hover #github{
 /* color:aqua; */
 /* background-color: purple;
 transition:500ms; */
-height: 4em;
-  max-width: 8em;
-  align-items: center;
-  margin-right: auto;
-  border: solid 5px black;
-  border-radius: 25px;
-left: 0px;
-bottom: 0px;
-transition: 1s;
+/* align-items: center; */
+/* margin-right: auto; */
+font-family: "Impact";
+color: white;
+border-radius: 25px;
 background-color: black;
+min-height: 3em;
+/* left: 0px;
+bottom: 0px; */
+transition: 1s;
+/* font-size: large; */
 }
 #demo {
   max-height: 8em;
-  max-width: 8em;
+  max-width: 900px;
   font-style: italic;
   margin-left: auto;
   border: solid 5px black;
@@ -291,7 +297,7 @@ background-color: black;
 a{
   color: white;
   font-size: large;
-  align-items:center;
+  text-align: center;
 }
 
 h1 {
@@ -318,12 +324,11 @@ margin-bottom: 40px;
 }
 #randomProjectHeader{
   color: black;
-  /* border: solid 5px black; */
   border-radius: 25px;
   background-color: rgba(255,255, 255, .50);
-  max-width: 12em;
   max-height: 8em;
-  align-items: center;
+  border: 2px solid black;
+  /* align-items: center; */
 }
 #randomProjectButton {
   box-shadow: 1px 1px 5px black;
@@ -334,10 +339,16 @@ margin-bottom: 40px;
   text-align: center;
   max-width: 12em;
   max-height: 8em;
-  background-image:url('../img/Swirl.gif');
+  background-color: black;
   background-size: cover;
   border-radius: 5px;
   font-size: xx-large;
+  background-image: url(../img/Tetons.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 
 }
 #randomProjectButtonText{
@@ -347,22 +358,37 @@ margin-bottom: 40px;
 #randomProjectButtonText:hover{
 color: white;
 background-color: black;
+border-radius: 15px;;
 padding: 15px;
 transition-duration: 0.5s;
 box-shadow: 1px 1px 5px;
 font-size:xx-large;
 }
 #footer {
-  background-color: white;
+  /* background-color: white; */
   border-top: 1px solid black;
   /* max-height: 400px; */
 
 }
+#footerButtons {
+  border: 1px solid black;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 15px;
+  font-family: 'Merriweather', serif;
+  display: inline-block;
+  background-color: rgba(124,169,130, .50);
+}
+#footerButtons:hover {
+  border: 1px solid black;
+  transition: .5s;
+}
 
-#footerButton {
-  background-color: white;
+#footerGithub {
+  
+  color: white;
 }
 
 #footerBottom {
-  background-color: black;
+  color: white;
 }

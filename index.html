@@ -26,18 +26,18 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> -->
-        <!-- <span class="navbar-toggler-icon" id="navbarToggler"></span> -->
+      <!-- <span class="navbar-toggler-icon" id="navbarToggler"></span> -->
       </button>
       <div class="collapse navbar-collapse">
         <div class="navbar-nav" id="navButtons">
           <a class="nav-link" href="#home" id="navButton">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="#breaker" id="navButton">My Work</a>
+          <a class="nav-link" href="#projectBoxes" id="navButton">My Work</a>
           <a class="nav-link" href="#" id="navButton">About Me</a>
         </div>
       </div>
     </nav>
   </div>
-  <div  id="home">
+  <div id="home">
     <!-- <div id="icons">
         <a href="#home"><div class="fixed-top" id="homeIcon"></div></a>
         <a href="#portfolio"
@@ -48,18 +48,18 @@
       </div> -->
     <div id="welcomeBox">
       <h1 class="col-12" id="hello">
-        HELLO, I'M GARRETT SPENCER. 
-        
+        HELLO, I'M GARRETT SPENCER.
+
         <h1 class="d-none d-xl-block" id="hello">WEB DEVELOPER.</h1>
       </h1>
     </div>
-    <div id ="aboutBox">
-      Welcome to my website. You are looking at one of many of my projects.
+    <div class = "col-12" id="aboutBox">
+      Welcome to my website. You are looking at one of many of my projects, the mose obvious one being this website itself.
     </div>
   </div>
- 
-  <div id="breaker" class="d-none d-xl-block"></div>
-  <div id="breaker1" class="d-block d-xl-none"></div>
+
+  <!-- <div id="breaker" class="d-none d-xl-block"></div>
+  <div id="breaker1" class="d-block d-xl-none"></div> -->
 
   <div class="col-12" id="portfolio">
     <div id="myWorkBox" class="card">
@@ -69,23 +69,9 @@
         WORK
       </h1>
     </div>
-    <div class="container"  id ="projectBoxes">
+    <div class="container" id="projectBoxes">
       <div class="row">
-         <div class="col">
-          <div class="card" id="ghostWriter">
-            <h1 class="col" id="projectTitle">Employee Tracker</h1>
-            <p class="col" id="projectP">
-              Using MySQL I created a command-line application so that a company could manage their employee's database. <br />
-              
-              <br />
-            </p>
-            <div id="logos">
-              <a class="col" id="github" href="https://github.com/gjspencer22/EmployeeTracker" target="_blank">Github</a>
-             
-              <a class="col" id="demo" href="https://drive.google.com/file/d/1o4c_Acu3aNr-qFY1ugLgjMaQYFfcStlW/view" target="_blank">Demo</a>
-            </div>
-          </div>
-        </div>
+
         <div class="col">
           <div class="card" id="ghostWriter">
             <h1 class="col" id="projectTitle">Ghost Writer</h1>
@@ -97,14 +83,15 @@
             </p>
             <div id="logos">
               <div id="wrapper">
-                <a>Github</a>
-              <a class="col" id="github" href="https://github.com/gjspencer22/story-telling-app" target="_blank">Github</a>
-            </div>
-              
-              <a class="col" id="demo" href="https://desolate-harbor-29412.herokuapp.com/" target="_blank">Demo</a>
+                <h4 id="wrapperText">View Github</h4>
+                <a class="col" id="github" href="https://github.com/gjspencer22/story-telling-app"
+                  target="_blank">Github</a>
+              </div>
             </div>
           </div>
         </div>
+
+
         <div class="col">
           <div class="card" id="ghostWriter">
             <h1 class="col" id="projectTitle">Count Down App</h1>
@@ -112,8 +99,44 @@
               A simple count down app using JavaScript <br />
             </p>
             <div id="logos">
+              <div id="wrapper">
+                <h4 id="wrapperText">View Github</h4>
+                <a class="col" id="github" href="https://github.com/gjspencer22/CountdownApp" target="_blank">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" id="ghostWriter">
+            <h1 class="col" id="projectTitle">Employee Tracker</h1>
+            <p class="col" id="projectP">
+              Using MySQL I created a command-line application so that a company could manage their employee's database.
+              <br />
+
+              <br />
+            </p>
+            <div id="logos">
+              <div id="wrapper">
+                <h4 id="wrapperText">View Github</h4>
+                <a class="col" id="github" href=https://github.com/gjspencer22/EmployeeTracker"
+                  target="_blank">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- <div class="col">
+          <div class="card" id="ghostWriter">
+            <h1 class="col" id="projectTitle">Employee Tracker</h1>
+            <p class="col" id="projectP">
+              A simple count down app using JavaScript <br />
+            </p>
+            <div id="logos">
               <a class="col" id="github" href="https://github.com/gjspencer22/CountdownApp" target="_blank">Github</a>
-              
+
               <a class="col" id="demo" href="https://gjspencer22.github.io/CountdownApp/" target="_blank">Demo</a>
             </div>
           </div>
@@ -122,36 +145,41 @@
           <div class="card" id="ghostWriter">
             <h1 class="col" id="projectTitle">Employee Tracker</h1>
             <p class="col" id="projectP">
-              Using MySQL I created a command-line application so that a company could manage their employee's database. <br />
-              
+              Using MySQL I created a command-line application so that a company could manage their employee's database.
+              <br />
+
               <br />
             </p>
             <div id="logos">
-              <a class="col" id="github" href="https://github.com/gjspencer22/EmployeeTracker" target="_blank">Github</a>
-             
-              <a class="col" id="demo" href="https://drive.google.com/file/d/1o4c_Acu3aNr-qFY1ugLgjMaQYFfcStlW/view" target="_blank">Demo</a>
+              <a class="col" id="github" href="https://github.com/gjspencer22/EmployeeTracker"
+                target="_blank">Github</a>
+
+              <a class="col" id="demo" href="https://drive.google.com/file/d/1o4c_Acu3aNr-qFY1ugLgjMaQYFfcStlW/view"
+                target="_blank">Demo</a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
-    
-    <div class ="col-12" id="randomProject">
-      <h1  id ="randomProjectHeader">Click for a Random Project</h1>
-      <button onclick="randomProject(), keepTrying()"  id="randomProjectButton"><p id ="randomProjectButtonText">Any Guesses?</p></button>
+
+    <div class="col-12" id="randomProject">
+      <h1 id="randomProjectHeader">Click Below For a Random Demo of One of the Projects From Above!</h1>
+      <button onclick="randomProject(), keepTrying()" id="randomProjectButton">
+        <p id="randomProjectButtonText">Any Guesses?</p>
+      </button>
     </div>
 
 
     <footer class="text-center text-black" id="footer">
       <div class="container p-4 pb-0">
-        <section class="mb-4">
-          <div class="footerBottom">Garrett Spencer</div>
-          <a class="btn btn-outline-dark btn-floating m-1" href="https://github.com/gjspencer22"
-            target="_blank">Github</a>
-          <a class="btn btn-outline-dark btn-floating m-1" href="https://www.linkedin.com/in/garrett-j-spencer/"
-            target="_blank">Linkedin</a>
-          <a class="btn btn-outline-dark btn-floating m-1" href="#!">Resume</a>
-        </section>
+        <div>
+          <section class="mb-4">
+            <a id="footerButtons" href="https://github.com/gjspencer22" target="_blank">Github</a>
+            <a id="footerButtons" href="https://www.linkedin.com/in/garrett-j-spencer/" target="_blank">Linkedin</a>
+            <a id="footerButtons" href="#!">Resume</a>
+            <!-- class="btn btn-outline-dark btn-floating m-1" -->
+          </section>
+        </div>
       </div>
 
 
